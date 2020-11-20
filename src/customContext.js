@@ -15,7 +15,7 @@ function CustomComponentProvider(props){
         .then(data => setAllPhotos(data))
     }
 
-    console.log({allPhotos})
+    // console.log({allPhotos})
 
     //Dont forget to pass double curly braces to the value of provider!!
     return (
